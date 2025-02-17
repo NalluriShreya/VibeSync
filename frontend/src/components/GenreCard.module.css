@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.image{
+    background-color: rgb(137, 136, 135);
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+}

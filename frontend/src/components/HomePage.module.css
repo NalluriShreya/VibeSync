@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&family=Teko:wght@300..700&display=swap');
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #5f5e5e;
+    padding: 40px;
+    font-family: "Poppins", serif;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background: url("/img5.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+    padding: 150px 0 125px 0;
+    overflow-x: hidden;
+    border-radius: 30px;
+}
+
+.container h1{
+    font-size: 55px;
+    color: #383838;
+    text-align: center;
+    font-family: "Russo One", serif;
+}
+
+.desc{
+    font-size: 20px;
+    color: #383838;
+    text-align: center;
+}
+
+.input{
+    padding: 18px 25px;
+    border-radius: 10px;
+    border: none;
+    width: 27%;
+    background-color: #383838b7;
+    color: white;
+}
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-style: italic;
+}
+
+
+.recButton{
+    text-align: center;
+    padding: 18px 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #282828dd;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.recButton:hover{
+    background-color: #282828;
+}
+
+.recommendations{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #515050b7;
+    color: white;
+    padding: 40px 35px;
+    border-radius: 20px;
+}
+
+.trackName{
+    font-weight: bold;
+}
+
+.genreContainer{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 724px){
+    .container h1{
+        font-size: 45px;
+    }
+
+    .desc{
+        font-size: 18px;
+    }
+    
+    .input{
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .container h1{
+        font-size: 40px;
+    }
+
+    .desc{
+        font-size: 15px;
+    }
+
+    .recommendations li{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 545px){
+    .container h1{
+        font-size: 35px;
+    }
+
+    .desc{
+        font-size: 14px;
+    }
+
+    .recommendations li{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 510px){
+    .mainContainer{
+        padding: 30px;
+    }
+
+    .recButton{
+        padding: 18px 30px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 510px){
+    .recButton{
+        padding: 18px 30px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 470px){
+    .container{
+        padding: 110px 0;
+    }
+    .container h1{
+        font-size: 30px;
+    }
+
+    .desc{
+        font-size: 13px;
+    }
+
+    .recommendations li{
+        font-size: 12px;
+    }
+
+    .recommendations{
+        padding: 20px;
+    }
+
+    .recButton{
+        padding: 18px 23px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 415px){
+    .mainContainer{
+        padding: 25px;
+    }
+
+    .container h1{
+        font-size: 25px;
+    }
+
+    .desc{
+        font-size: 12px;
+    }
+
+    .input{
+        padding: 15px 20px;
+    }
+
+    .recommendations li{
+        font-size: 10px;
+    }
+
+    .recommendations{
+        padding: 20px;
+    }
+
+    .recButton{
+        padding: 18px 23px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 355px){
+    .mainContainer{
+        padding: 19px;
+    }
+
+    .container h1{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 320px){
+    .mainContainer{
+        padding: 15px;
+    }
+}
+
+@media (max-width: 313px){
+    .mainContainer{
+        padding: 10px;
+    }
+
+    .container h1{
+        font-size: 22px;
+    }
+
+    .recommendations{
+        padding: 15px;
+    }
+    
+    .recommendations li{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+}

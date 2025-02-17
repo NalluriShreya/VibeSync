@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.songList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.songs{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.genreCards{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 495px){
+    .songs li{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 370px){
+    .songs li{
+        font-size: 12px;
+    }
+}
